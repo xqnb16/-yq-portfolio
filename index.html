@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="杨乾 YQ 的个人设计空间。视觉、界面、插画，与一点陪伴。">
+  <title>杨乾 YQ — Design, with a little company.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=14-lattice">
+  <link rel="stylesheet" href="title-motion.css?v=14-lattice">
+  <script src="portfolio-data.js?v=14-lattice" defer></script>
+  <script src="title-motion.js?v=14-lattice" defer></script>
+  <script src="app.js?v=14-lattice" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到内容</a>
+  <header class="site-header">
+    <span class="header-surface" aria-hidden="true"></span>
+    <div class="header-inner wrap">
+    <a class="wordmark pressable" href="#/" aria-label="杨乾 YQ，返回首页">YQ<span class="logo-dot">.</span></a>
+    <div class="header-controls">
+      <nav aria-label="主导航" id="main-nav">
+        <a class="nav-link pressable" href="#/work" data-nav="work">Work<span>作品</span></a>
+        <a class="nav-link pressable" href="#/about" data-nav="about">About<span>关于</span></a>
+        <a class="nav-link pressable" href="#/play" data-nav="play">Play<span>实验</span></a>
+        <a class="nav-link pressable" href="#/contact" data-nav="contact">Contact<span>联系</span></a>
+      </nav>
+      <button class="menu-button pressable" aria-controls="main-nav" aria-expanded="false" type="button">菜单<span aria-hidden="true">＋</span></button>
+    </div>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="site-footer wrap">
+    <a href="#/" class="footer-name pressable">YQ / 杨乾</a>
+    <p>设计，与一点陪伴。</p>
+    <a class="footer-email pressable" href="mailto:yangqian666@nenu.edu.cn">Say hello <span aria-hidden="true">↗</span></a>
+    <span class="copyright">© <span id="year"></span> YQ</span>
+  </footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
+
